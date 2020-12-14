@@ -1,5 +1,7 @@
 def oxford_comma(array)
   if array.length == 1
-    array.split(",")
+    puts array
+  else array.length > 2
+    puts array.split(",")
   end
 end
